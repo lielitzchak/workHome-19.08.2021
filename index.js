@@ -90,12 +90,28 @@
 // }
 // Exercise10(userInput1 , userInput2 , userInput3)
 
+// Exercise 11.a
+// Fname= prompt("namec");
+// function Exercise11_a(inUSER){
+//     document.write(`<p id="Exer11_a_b">${inUSER}`);
 
+// }
+// Exercise11_a(Fname);
 
+// // Exercise 11.b
+// var Lname = prompt("last name")
+// function Exercise11_b (inp1) {
+//    document.write(` ${inp1} `)+= document.getElementById("Exer11_a_b");
+// }
+// Exercise11_b(Lname);
 
-
-
-
+// Exercise 12.a
+// var userInputName = prompt("what your name ?");
+// function Exercise_12_a(input1) {
+//   document.write(`<p id = "Exer12a">${input1}</p>`);
+// }
+// Exercise_12_a(userInputName);
+// Exercise 12.b
 
 
 
