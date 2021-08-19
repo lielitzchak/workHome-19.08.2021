@@ -81,8 +81,28 @@
 // }
 // writeWithId(fName, lName, ageUseR);
 // Exercise 10
+// var userInput1 = prompt("name")
+// var userInput2 = prompt("last name")
+// var userInput3 = prompt("age")
+// function Exercise10(input1 , input2 , Input3){
+//     document.write(`<div><p id="exe10"> ${input1} , ${input2} , ${Input3}</p></div>`)
+
+// }
+// Exercise10(userInput1 , userInput2 , userInput3)
+
+
+
+
+
+
+
+
+
+
+
 
 // what is this?
+
 // var divs = document.getElementsByTagName("div");
 // function changWith() {
 //   for (let i = 0; i < divs.length; i++) {
