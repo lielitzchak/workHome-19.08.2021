@@ -98,7 +98,7 @@
 // }
 // Exercise11_a(Fname);
 
-// // Exercise 11.b
+// Exercise 11.b
 // var Lname = prompt("last name")
 // function Exercise11_b (inp1) {
 //    document.write(` ${inp1} `)+= document.getElementById("Exer11_a_b");
@@ -108,10 +108,18 @@
 // Exercise 12.a
 // var userInputName = prompt("what your name ?");
 // function Exercise_12_a(input1) {
-//   document.write(`<p id = "Exer12a">${input1}</p>`);
+//   document.write(`<p id = "exer12ab">${input1}</p>`);
 // }
 // Exercise_12_a(userInputName);
 // Exercise 12.b
+
+// var userInputLastName = prompt("what your  last name ?");
+// function Exercise12b(userInput1) {
+//    document.write(`${userInput1}`)+= document.getElementById("exer12ab");
+// }
+// Exercise12b(userInputLastName);
+
+// Exercise 13
 
 
 
