@@ -61,7 +61,7 @@
 
 // Exercise 8
 
-// var Finame = prompt("first name");
+// var Fname = prompt("first name");
 // FLname = prompt("last name");
 // age = +prompt("age");
 // function writeToWindo(input1, input2, input3) {
@@ -69,7 +69,8 @@
 //     `<div><p>first name: ${input1} , last name: ${input2} , age : ${input3}`
 //   );
 // }
-// writeToWindo(Finame, FLname, age);
+
+// writeToWindo(Fname, FLname, age);
 
 // Exercise 9
 // var fName = prompt("first name")
@@ -91,9 +92,9 @@
 // Exercise10(userInput1 , userInput2 , userInput3)
 
 // Exercise 11.a
-// Fname= prompt("namec");
+// Fname= prompt("name");
 // function Exercise11_a(inUSER){
-//     document.write(`<p id="Exer11_a_b">${inUSER}`);
+//     document.write(`<p id="Exe11_a_b">${inUSER}`);
 
 // }
 // Exercise11_a(Fname);
@@ -101,29 +102,48 @@
 // Exercise 11.b
 // var Lname = prompt("last name")
 // function Exercise11_b (inp1) {
-//    document.write(` ${inp1} `)+= document.getElementById("Exer11_a_b");
+//    document.write(` ${inp1} `)+= document.getElementById("Exe11_a_b");
 // }
 // Exercise11_b(Lname);
 
 // Exercise 12.a
 // var userInputName = prompt("what your name ?");
 // function Exercise_12_a(input1) {
-//   document.write(`<p id = "exer12ab">${input1}</p>`);
+//   document.write(`<p id = "exe12ab">${input1}</p>`);
 // }
 // Exercise_12_a(userInputName);
 // Exercise 12.b
 
 // var userInputLastName = prompt("what your  last name ?");
 // function Exercise12b(userInput1) {
-//    document.write(`${userInput1}`)+= document.getElementById("exer12ab");
+//    document.write(`${userInput1}`)+= document.getElementById("exe12ab");
 // }
 // Exercise12b(userInputLastName);
 
 // Exercise 13
+var inputUserColor = prompt("car's color");
+var inputCompany = prompt("camp");
+var inputCamak = prompt("samak");
 
+function exe13(inpColor1, inp2Company, inp3samak) {
+  car = {
+    color: inpColor1,
+    company: inp2Company,
+    Camak: inp3samak,
+    broth: new Date(),
+  };
+}
+document.write(exe13(inputUserColor, inputCompany, inputCamak));
+console.log(
+  exe13(
+    `color: ${inputUserColor} , company: ${inputCompany} , camak: ${inputCamak}`
+  )
+);
 
-
-
+// Exercise 14
+// Exercise 15
+// Exercise 16
+// Exercise 17
 
 // what is this?
 
