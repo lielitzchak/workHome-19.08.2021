@@ -121,26 +121,27 @@
 // Exercise12b(userInputLastName);
 
 // Exercise 13
-var inputUserColor = prompt("car's color");
-var inputCompany = prompt("camp");
-var inputCamak = prompt("samak");
+// var inputUserColor = prompt("car's color");
+// var inputCompany = prompt("camp");
+// var inputCamak = prompt("samak");
 
-function exe13(inpColor1, inp2Company, inp3samak) {
-  car = {
-    color: inpColor1,
-    company: inp2Company,
-    Camak: inp3samak,
-    broth: new Date(),
-  };
-}
-document.write(exe13(inputUserColor, inputCompany, inputCamak));
-console.log(
-  exe13(
-    `color: ${inputUserColor} , company: ${inputCompany} , camak: ${inputCamak}`
-  )
-);
+// function exe13(inpColor1, inp2Company, inp3samak) {
+//   car = [
+//     {
+//       color: inpColor1,
+//       company: inp2Company,
+//       Camak: inp3samak,
+//       broth: new Date(),
+//     },
+//   ];
+// }
+// console.log(exe13(inputUserColor, inputCompany, inputCamak));
+// document.write(exe13(inputUserColor, inputCompany, inputCamak));
 
 // Exercise 14
+
+
+
 // Exercise 15
 // Exercise 16
 // Exercise 17
